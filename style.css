@@ -1,0 +1,153 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: grid;
+  position: relative;
+  margin: auto;
+  grid-template: 30px / repeat(4, 1fr);
+  max-width: 500px;
+}
+
+.navbar a {
+  display: block;
+  font-size: 170%;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(102, 176, 137);
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid rgb(102, 176, 137);
+}
+
+hr {
+  margin: 10px 15%;
+}
+
+.home {
+  text-align: center;
+}
+
+.home img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: 100;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 80px;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 200%;
+  color: rgb(102, 176, 137);
+}
+
+h3 {
+  text-align: center;
+  font-size: 150%;
+  font-weight: 200;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5%;
+  margin-left: 21%;
+  margin-right: 21%;
+}
+
+.about p {
+  font-size: 120%;
+  text-align: left;
+}
+
+.pricing {
+  margin-left: 37%;
+  margin-right: 37%;
+}
+
+.use-grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-gap: 40px 0;
+  margin-left: 18%;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.use img {
+  margin: auto 10px;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+.instruct {
+  margin: auto;
+  font-size: 120%;
+  padding-right: 20%;
+  margin-left: 5%;
+  text-align: left;
+}
+
+.contact p {
+  margin: 0 25%;
+  font-size: 120%;
+}
+
+p {
+  text-align: center;
+}
+
+.privacy {
+  width: 100%;
+}
+
+.privacy p {
+  font-size: 120%;
+  text-align: center;
+  color: rgb(102, 176, 137);
+  padding: 50px;
+}
+
+/*
+Privacy policy specific styling
+*/
+
+.policy {
+  margin: 0 25%;
+}
+
+.link {
+  margin-top: 30px;
+}
+
+.privacy-policy a {
+  color: rgb(102, 176, 137);
+}
+
+.privacy-policy h1 {
+  text-align: center;
+  color: rgb(102, 176, 137);
+  margin-top: 0;
+}
+
+.privacy-policy h2 {
+  padding-top: 40px;
+}
+
+#lastline {
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
